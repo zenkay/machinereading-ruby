@@ -1,0 +1,624 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.machinereading.com/sequence_surprisal
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:32 GMT
+      Content-Type:
+      - application/json;charset="utf-8"
+      Content-Length:
+      - '10571'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '[{"VALUE":0.0,"SEQUENCE":[{"WORD":"Mio","ID":1,"VALUE":0.997906},{"WORD":"padre","ID":2,"VALUE":0.884526},{"WORD":"che","ID":3,"VALUE":0.998723},{"WORD":"mi","ID":4,"VALUE":0.675779},{"WORD":"spinge","ID":5,"VALUE":0.729285},{"WORD":"a","ID":6,"VALUE":1.0},{"WORD":"mangiare","ID":7,"VALUE":0.999998},{"WORD":"e","ID":8,"VALUE":0.999394},{"WORD":"guai","ID":9,"VALUE":0.952544},{"WORD":"se","ID":10,"VALUE":0.976082},{"WORD":"non","ID":11,"VALUE":0.999951},{"WORD":"finisco","ID":12,"VALUE":0.000001},{"WORD":"mio","ID":13,"VALUE":0.997888},{"WORD":"padre","ID":14,"VALUE":0.000001},{"WORD":"che","ID":15,"VALUE":0.499895},{"WORD":"vuol","ID":16,"VALUE":0.99999},{"WORD":"farmi","ID":17,"VALUE":0.996305},{"WORD":"guidare","ID":18,"VALUE":0.970244},{"WORD":"mi","ID":19,"VALUE":0.93558},{"WORD":"frena","ID":20,"VALUE":0.000001},{"WORD":"con","ID":21,"VALUE":0.999982},{"WORD":"il","ID":22,"VALUE":1.0},{"WORD":"fischio","ID":23,"VALUE":0.99439},{"WORD":"il","ID":24,"VALUE":1.0},{"WORD":"bambino","ID":25,"VALUE":0.890481},{"WORD":"pi\u00f9","ID":26,"VALUE":0.994184},{"WORD":"grande","ID":27,"VALUE":0.999752},{"WORD":"mi","ID":28,"VALUE":0.648647},{"WORD":"mena","ID":29,"VALUE":0.0000176784},{"WORD":"davanti","ID":30,"VALUE":0.999354},{"WORD":"a","ID":31,"VALUE":0.994408},{"WORD":"tutti","ID":32,"VALUE":0.998696},{"WORD":"gli","ID":33,"VALUE":0.999957},{"WORD":"altri","ID":34,"VALUE":0.659509},{"WORD":"lui","ID":35,"VALUE":0.0030959},{"WORD":"che","ID":36,"VALUE":0.999465},{"WORD":"passa","ID":37,"VALUE":0.999995},{"WORD":"per","ID":38,"VALUE":0.998372},{"WORD":"caso","ID":39,"VALUE":0.982892},{"WORD":"mi","ID":40,"VALUE":0.997788},{"WORD":"salva","ID":41,"VALUE":0.0000153814},{"WORD":"e","ID":42,"VALUE":1.0},{"WORD":"mi","ID":43,"VALUE":0.977809},{"WORD":"condanna","ID":44,"VALUE":0.978993},{"WORD":"per","ID":45,"VALUE":0.942201},{"WORD":"sempre","ID":46,"VALUE":0.926349},{"WORD":"mio","ID":47,"VALUE":0.999326},{"WORD":"padre","ID":48,"VALUE":0.97456},{"WORD":"di","ID":49,"VALUE":0.999957},{"WORD":"spalle","ID":50,"VALUE":0.987331},{"WORD":"sul","ID":51,"VALUE":0.999948},{"WORD":"piatto","ID":52,"VALUE":0.710884},{"WORD":"si","ID":53,"VALUE":0.975167},{"WORD":"mangia","ID":54,"VALUE":0.0000144233},{"WORD":"la","ID":55,"VALUE":0.999961},{"WORD":"vita","ID":56,"VALUE":0.922825},{"WORD":"e","ID":57,"VALUE":0.915639},{"WORD":"poi","ID":58,"VALUE":0.906125},{"WORD":"sulla","ID":59,"VALUE":0.999957},{"WORD":"pista","ID":60,"VALUE":0.970429},{"WORD":"da","ID":61,"VALUE":0.999967},{"WORD":"ballo","ID":62,"VALUE":0.872254},{"WORD":"fa","ID":63,"VALUE":0.000001},{"WORD":"un","ID":64,"VALUE":0.999998},{"WORD":"valzer","ID":65,"VALUE":0.814272},{"WORD":"dentro","ID":66,"VALUE":0.999653},{"WORD":"il","ID":67,"VALUE":0.9932},{"WORD":"suo","ID":68,"VALUE":0.999997},{"WORD":"nuovo","ID":69,"VALUE":0.587118},{"WORD":"vestito","ID":70,"VALUE":0.667853},{"WORD":"Per","ID":71,"VALUE":0.98438},{"WORD":"sempre","ID":72,"VALUE":0.290972},{"WORD":"solo","ID":73,"VALUE":0.992869},{"WORD":"per","ID":74,"VALUE":0.984012},{"WORD":"sempre","ID":75,"VALUE":0.999893},{"WORD":"cosa","ID":76,"VALUE":0.93495},{"WORD":"sar\u00e0","ID":77,"VALUE":0.0000193346},{"WORD":"mai","ID":78,"VALUE":0.99995},{"WORD":"porvarvi","ID":79,"VALUE":0.822803},{"WORD":"dentro","ID":80,"VALUE":0.803109},{"WORD":"solo","ID":81,"VALUE":0.989257},{"WORD":"tutto","ID":82,"VALUE":0.993539},{"WORD":"il","ID":83,"VALUE":1.0},{"WORD":"tempo","ID":84,"VALUE":0.997797},{"WORD":"per","ID":85,"VALUE":0.999743},{"WORD":"sempre","ID":86,"VALUE":0.238147},{"WORD":"solo","ID":87,"VALUE":0.776328},{"WORD":"per","ID":88,"VALUE":0.994867},{"WORD":"sempre","ID":89,"VALUE":0.567081},{"WORD":"c''","ID":90,"VALUE":0.991857},{"WORD":"\u00e8","ID":91,"VALUE":0.000001},{"WORD":"un","ID":92,"VALUE":0.999972},{"WORD":"istante","ID":93,"VALUE":0.99694},{"WORD":"che","ID":94,"VALUE":0.833178},{"WORD":"rimane","ID":95,"VALUE":0.998869},{"WORD":"l\u00ec","ID":96,"VALUE":0.736074},{"WORD":"piantato","ID":97,"VALUE":0.61259},{"WORD":"eternamente","ID":98,"VALUE":0.993676},{"WORD":"E","ID":99,"VALUE":0.999993},{"WORD":"lei","ID":100,"VALUE":0.985064},{"WORD":"che","ID":101,"VALUE":0.990823},{"WORD":"non","ID":102,"VALUE":0.99788},{"WORD":"si","ID":103,"VALUE":0.998946},{"WORD":"lascia","ID":104,"VALUE":0.69253},{"WORD":"afferrare","ID":105,"VALUE":0.000001},{"WORD":"si","ID":106,"VALUE":0.265802},{"WORD":"piega","ID":107,"VALUE":0.732164},{"WORD":"indietro","ID":108,"VALUE":0.522713},{"WORD":"e","ID":109,"VALUE":0.999684},{"WORD":"ride","ID":110,"VALUE":0.999253},{"WORD":"e","ID":111,"VALUE":0.000001},{"WORD":"lei","ID":112,"VALUE":0.000001},{"WORD":"che","ID":113,"VALUE":0.996292},{"WORD":"dice","ID":114,"VALUE":0.984389},{"WORD":"quanto","ID":115,"VALUE":0.839752},{"WORD":"mi","ID":116,"VALUE":0.93802},{"WORD":"ama","ID":117,"VALUE":0.593256},{"WORD":"e","ID":118,"VALUE":0.000001},{"WORD":"io","ID":119,"VALUE":0.000001},{"WORD":"che","ID":120,"VALUE":0.999153},{"WORD":"mi","ID":121,"VALUE":0.939094},{"WORD":"fido","ID":122,"VALUE":0.760339},{"WORD":"e","ID":123,"VALUE":0.999806},{"WORD":"lei","ID":124,"VALUE":0.998071},{"WORD":"che","ID":125,"VALUE":0.992596},{"WORD":"mi","ID":126,"VALUE":0.957331},{"WORD":"toccava","ID":127,"VALUE":0.979498},{"WORD":"per","ID":128,"VALUE":0.999985},{"WORD":"prima","ID":129,"VALUE":0.593228},{"WORD":"la","ID":130,"VALUE":0.985658},{"WORD":"sua","ID":131,"VALUE":0.999995},{"WORD":"mano","ID":132,"VALUE":0.996837},{"WORD":"bambina","ID":133,"VALUE":0.971718},{"WORD":"vuole","ID":134,"VALUE":0.881298},{"WORD":"che","ID":135,"VALUE":0.999312},{"WORD":"le","ID":136,"VALUE":0.785502},{"WORD":"giuri","ID":137,"VALUE":0.996955},{"WORD":"qualcosa","ID":138,"VALUE":0.970768},{"WORD":"le","ID":139,"VALUE":0.99975},{"WORD":"si","ID":140,"VALUE":0.862296},{"WORD":"gonfia","ID":141,"VALUE":0.000001},{"WORD":"una","ID":142,"VALUE":0.999963},{"WORD":"vena","ID":143,"VALUE":0.545378},{"WORD":"e","ID":144,"VALUE":0.0289085},{"WORD":"lei","ID":145,"VALUE":0.0235078},{"WORD":"che","ID":146,"VALUE":0.365661},{"WORD":"era","ID":147,"VALUE":0.999881},{"WORD":"troppo","ID":148,"VALUE":0.998639},{"WORD":"pi\u00f9","ID":149,"VALUE":0.988546},{"WORD":"forte","ID":150,"VALUE":0.993769},{"WORD":"sicura","ID":151,"VALUE":0.00923765},{"WORD":"di","ID":152,"VALUE":0.896633},{"WORD":"tutto","ID":153,"VALUE":0.960064},{"WORD":"e","ID":154,"VALUE":0.000001},{"WORD":"prima","ID":155,"VALUE":0.999894},{"WORD":"di","ID":156,"VALUE":0.998021},{"WORD":"andarsene","ID":157,"VALUE":0.000001},{"WORD":"mi","ID":158,"VALUE":0.991982},{"WORD":"d\u00e0","ID":159,"VALUE":0.00140842},{"WORD":"il","ID":160,"VALUE":0.999999},{"WORD":"profilo","ID":161,"VALUE":0.997135},{"WORD":"con","ID":162,"VALUE":0.999999},{"WORD":"un","ID":163,"VALUE":0.99994},{"WORD":"movimento","ID":164,"VALUE":0.762811},{"WORD":"perfetto","ID":165,"VALUE":0.99321},{"WORD":"Per","ID":166,"VALUE":0.00180508},{"WORD":"sempre","ID":167,"VALUE":0.19198},{"WORD":"solo","ID":168,"VALUE":0.712519},{"WORD":"per","ID":169,"VALUE":0.0172414},{"WORD":"sempre","ID":170,"VALUE":0.97112},{"WORD":"cosa","ID":171,"VALUE":0.449476},{"WORD":"sar\u00e0","ID":172,"VALUE":0.0000807117},{"WORD":"mai","ID":173,"VALUE":0.999696},{"WORD":"portarvi","ID":174,"VALUE":0.691151},{"WORD":"dentro","ID":175,"VALUE":0.98176},{"WORD":"solo","ID":176,"VALUE":0.989646},{"WORD":"tutto","ID":177,"VALUE":0.994289},{"WORD":"il","ID":178,"VALUE":1.0},{"WORD":"tempo","ID":179,"VALUE":0.933659},{"WORD":"per","ID":180,"VALUE":0.999401},{"WORD":"sempre","ID":181,"VALUE":0.163143},{"WORD":"solo","ID":182,"VALUE":0.694925},{"WORD":"per","ID":183,"VALUE":0.99737},{"WORD":"sempre","ID":184,"VALUE":0.997676},{"WORD":"c''","ID":185,"VALUE":0.991857},{"WORD":"\u00e8","ID":186,"VALUE":0.000001},{"WORD":"un","ID":187,"VALUE":0.999989},{"WORD":"istante","ID":188,"VALUE":0.87657},{"WORD":"che","ID":189,"VALUE":0.987187},{"WORD":"rimane","ID":190,"VALUE":0.000001},{"WORD":"l\u00ec","ID":191,"VALUE":0.00327617},{"WORD":"piantato","ID":192,"VALUE":0.93936},{"WORD":"eternamente","ID":193,"VALUE":0.581251},{"WORD":"per","ID":194,"VALUE":0.400973},{"WORD":"sempre","ID":195,"VALUE":0.777756},{"WORD":"solo","ID":196,"VALUE":0.826889},{"WORD":"per","ID":197,"VALUE":0.848363},{"WORD":"sempre","ID":198,"VALUE":0.986527},{"WORD":"Mia","ID":199,"VALUE":0.998264},{"WORD":"madre","ID":200,"VALUE":0.000001},{"WORD":"che","ID":201,"VALUE":0.999193},{"WORD":"prepara","ID":202,"VALUE":0.999996},{"WORD":"la","ID":203,"VALUE":0.999986},{"WORD":"cena","ID":204,"VALUE":0.993347},{"WORD":"cantando","ID":205,"VALUE":0.71509},{"WORD":"sanremo","ID":206,"VALUE":0.73079},{"WORD":"carezza","ID":207,"VALUE":0.000093798},{"WORD":"la","ID":208,"VALUE":0.999982},{"WORD":"testa","ID":209,"VALUE":0.975438},{"WORD":"a","ID":210,"VALUE":0.998651},{"WORD":"mio","ID":211,"VALUE":0.999947},{"WORD":"padre","ID":212,"VALUE":0.999856},{"WORD":"gli","ID":213,"VALUE":0.501389},{"WORD":"dice","ID":214,"VALUE":0.0000221344},{"WORD":"vedrai","ID":215,"VALUE":0.000001},{"WORD":"che","ID":216,"VALUE":0.993246},{"WORD":"ce","ID":217,"VALUE":0.847655},{"WORD":"la","ID":218,"VALUE":0.753698},{"WORD":"faremo","ID":219,"VALUE":0.480824},{"WORD":"Per","ID":220,"VALUE":0.983271},{"WORD":"sempre","ID":221,"VALUE":0.925859},{"WORD":"solo","ID":222,"VALUE":0.337448},{"WORD":"per","ID":223,"VALUE":0.980314},{"WORD":"sempre","ID":224,"VALUE":0.179788},{"WORD":"cosa","ID":225,"VALUE":0.966853},{"WORD":"sar\u00e0","ID":226,"VALUE":0.000001},{"WORD":"mai","ID":227,"VALUE":0.991061},{"WORD":"portarvi","ID":228,"VALUE":0.441118},{"WORD":"dentro","ID":229,"VALUE":0.631059},{"WORD":"solo","ID":230,"VALUE":0.999606},{"WORD":"tutto","ID":231,"VALUE":0.976134},{"WORD":"il","ID":232,"VALUE":1.0},{"WORD":"tempo","ID":233,"VALUE":0.883152},{"WORD":"per","ID":234,"VALUE":0.902374},{"WORD":"sempre","ID":235,"VALUE":0.8689},{"WORD":"solo","ID":236,"VALUE":0.957662},{"WORD":"per","ID":237,"VALUE":0.999544},{"WORD":"sempre","ID":238,"VALUE":0.793856},{"WORD":"c''","ID":239,"VALUE":0.996893},{"WORD":"\u00e8","ID":240,"VALUE":0.000001},{"WORD":"un","ID":241,"VALUE":0.999989},{"WORD":"istante","ID":242,"VALUE":0.566234},{"WORD":"che","ID":243,"VALUE":0.987187},{"WORD":"rimane","ID":244,"VALUE":0.999639},{"WORD":"l\u00ec","ID":245,"VALUE":0.00443843},{"WORD":"piantato","ID":246,"VALUE":0.93936},{"WORD":"eternamente","ID":247,"VALUE":0.581251},{"WORD":"per","ID":248,"VALUE":0.256421},{"WORD":"sempre","ID":249,"VALUE":0.860384},{"WORD":"solo","ID":250,"VALUE":0.892486},{"WORD":"per","ID":251,"VALUE":0.992894},{"WORD":"sempre","ID":252,"VALUE":0.997694}]}]'
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:33 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/keyword_extractor
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&maxRetrieve=50&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:34 GMT
+      Content-Type:
+      - application/json;charset="utf-8"
+      Content-Length:
+      - '831'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '[{"rating":0.0051023689,"keyword":"istante"},{"rating":0.003968254,"keyword":"porvarvi"},{"rating":0.0034215842,"keyword":"padre"},{"rating":0.0029674911,"keyword":"mangiare"},{"rating":0.002255588,"keyword":"valzer"},{"rating":0.0021710796,"keyword":"fischio"},{"rating":0.0019624651,"keyword":"piega"},{"rating":0.0019332247,"keyword":"cena
+        cantando sanremo"},{"rating":0.0018046069,"keyword":"guai"},{"rating":0.0017040485,"keyword":"vena"},{"rating":0.0015854585,"keyword":"ballo"},{"rating":0.0014970882,"keyword":"forte
+        sicura"},{"rating":0.0014348148,"keyword":"piatto"},{"rating":0.0014289609,"keyword":"pista"},{"rating":0.0014061382,"keyword":"profilo"},{"rating":0.0012794786,"keyword":"spalle"},{"rating":0.0010522517,"keyword":"testa"},{"rating":0.000995421,"keyword":"madre"},{"rating":0.0006799356,"keyword":"vita"}]'
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:34 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/pos_tagger_stanford
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&format=horizontal&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:35 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '2145'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        TWlvL0pKIHBhZHJlL05OIGNoZS9QUlAgbWkvUFJQIHNwaW5nZS9WQlogYS9J
+        TiBtYW5naWFyZS9OTiBlL0NDIGd1YWkvTk5TIHNlL0lOIG5vbi9SQiBmaW5p
+        c2NvL1ZCUCBtaW8vSkogcGFkcmUvTk4gY2hlL1BSUCB2dW9sL01EIGZhcm1p
+        L1ZCUCBndWlkYXJlL1ZCUCBtaS9QUlAgZnJlbmEvVkJaIGNvbi9JTiBpbC9E
+        VCBmaXNjaGlvL05OIGlsL0RUIGJhbWJpbm8vTk4gcGnDuS9SQiBncmFuZGUv
+        SkogbWkvUFJQIG1lbmEvVkJaIGRhdmFudGkvSU4gYS9JTiB0dXR0aS9QRFQg
+        Z2xpL0RUIGFsdHJpL0pKIGx1aS9QUlAgY2hlL1BSUCBwYXNzYS9WQlogcGVy
+        L1JCIGNhc28vUkIgbWkvUFJQIHNhbHZhL1ZCWiBlL0NDIG1pL1BSUCBjb25k
+        YW5uYS9WQlogcGVyL1JCIHNlbXByZS9SQiBtaW8vSkogcGFkcmUvTk4gZGkv
+        SU4gc3BhbGxlL05OUyBzdWwvSU4gcGlhdHRvL05OIHNpL1BSUCBtYW5naWEv
+        VkJaIGxhL0RUIHZpdGEvTk4gZS9DQyBwb2kvTk4gc3VsbGEvSU4gcGlzdGEv
+        Tk4gZGEvSU4gYmFsbG8vTk4gZmEvSkogdW4vRFQgdmFsemVyL05OIGRlbnRy
+        by9JTiBpbC9EVCBzdW8vSkogbnVvdm8vTk4gdmVzdGl0by9WQk4gUGVyL1JC
+        IHNlbXByZS9SQiBzb2xvL1JCIHBlci9JTiBzZW1wcmUvUkIgY29zYS9OTiBz
+        YXLDoC9WQlogbWFpL1JCIHBvcnZhcnZpL05OIGRlbnRyby9JTiBzb2xvL1JC
+        IHR1dHRvL1BEVCBpbC9EVCB0ZW1wby9OTiBwZXIvUkIgc2VtcHJlL1JCIHNv
+        bG8vUkIgcGVyL1JCIHNlbXByZS9SQiBjJy9QUlAgw6gvVkJaIHVuL0RUIGlz
+        dGFudGUvTk4gY2hlL1BSUCByaW1hbmUvVkJaIGzDrC9SQiBwaWFudGF0by9W
+        Qk4gZXRlcm5hbWVudGUvUkIgRS9DQyBsZWkvUFJQIGNoZS9JTiBub24vUkIg
+        c2kvUFJQIGxhc2NpYS9WQlogYWZmZXJyYXJlL1ZCUCBzaS9QUlAgcGllZ2Ev
+        Tk4gaW5kaWV0cm8vSkogZS9DQyByaWRlL1ZCWiBlL0NDIGxlaS9QUlAgY2hl
+        L1BSUCBkaWNlL1ZCWiBxdWFudG8vSU4gbWkvUFJQIGFtYS9WQlogZS9DQyBp
+        by9QUlAgY2hlL1BSUCBtaS9QUlAgZmlkby9WQlAgZS9DQyBsZWkvUFJQIGNo
+        ZS9QUlAgbWkvUFJQIHRvY2NhdmEvVkJaIHBlci9JTiBwcmltYS9SQiBsYS9E
+        VCBzdWEvSkogbWFuby9OTiBiYW1iaW5hL0pKIHZ1b2xlL01EIGNoZS9JTiBs
+        ZS9QUlAgZ2l1cmkvVkJQIHF1YWxjb3NhL1BSUCBsZS9QUlAgc2kvUFJQIGdv
+        bmZpYS9KSiB1bmEvRFQgdmVuYS9OTiBlL0NDIGxlaS9QUlAgY2hlL1BSUCBl
+        cmEvVkJaIHRyb3Bwby9SQiBwacO5L1JCIGZvcnRlL0pKIHNpY3VyYS9OTiBk
+        aS9JTiB0dXR0by9QUlAgZS9DQyBwcmltYS9JTiBkaS9JTiBhbmRhcnNlbmUv
+        VkJQIG1pL1BSUCBkw6AvVkJaIGlsL0RUIHByb2ZpbG8vTk4gY29uL0lOIHVu
+        L0RUIG1vdmltZW50by9OTiBwZXJmZXR0by9SQiBQZXIvUkIgc2VtcHJlL1JC
+        IHNvbG8vUkIgcGVyL1JCIHNlbXByZS9SQiBjb3NhL1dQIHNhcsOgL1ZCWiBt
+        YWkvUkIgcG9ydGFydmkvVkJQIGRlbnRyby9JTiBzb2xvL1JCIHR1dHRvL1BE
+        VCBpbC9EVCB0ZW1wby9OTiBwZXIvUkIgc2VtcHJlL1JCIHNvbG8vUkIgcGVy
+        L1JCIHNlbXByZS9SQiBjJy9QUlAgw6gvVkJaIHVuL0RUIGlzdGFudGUvTk4g
+        Y2hlL1BSUCByaW1hbmUvVkJaIGzDrC9SQiBwaWFudGF0by9WQk4gZXRlcm5h
+        bWVudGUvUkIgcGVyL0lOIHNlbXByZS9SQiBzb2xvL1JCIHBlci9SQiBzZW1w
+        cmUvUkIgTWlhL0pKIG1hZHJlL05OIGNoZS9QUlAgcHJlcGFyYS9WQlogbGEv
+        RFQgY2VuYS9OTiBjYW50YW5kby9WQkcgc2FucmVtby9OTiBjYXJlenphL1ZC
+        WiBsYS9EVCB0ZXN0YS9OTiBhL0lOIG1pby9KSiBwYWRyZS9OTiBnbGkvUFJQ
+        IGRpY2UvVkJaIHZlZHJhaS9WQlAgY2hlL0lOIGNlL1BSUCBsYS9QUlAgZmFy
+        ZW1vL1ZCUCBQZXIvUkIgc2VtcHJlL1JCIHNvbG8vUkIgcGVyL0lOIHNlbXBy
+        ZS9SQiBjb3NhL05OIHNhcsOgL1ZCWiBtYWkvUkIgcG9ydGFydmkvVkJQIGRl
+        bnRyby9SQiBzb2xvL1JCIHR1dHRvL1BEVCBpbC9EVCB0ZW1wby9OTiBwZXIv
+        SU4gc2VtcHJlL1JCIHNvbG8vSkogcGVyL1JCIHNlbXByZS9SQiBjJy9QUlAg
+        w6gvVkJaIHVuL0RUIGlzdGFudGUvTk4gY2hlL1BSUCByaW1hbmUvVkJaIGzD
+        rC9SQiBwaWFudGF0by9WQk4gZXRlcm5hbWVudGUvUkIgcGVyL0lOIHNlbXBy
+        ZS9SQiBzb2xvL1JCIHBlci9SQiBzZW1wcmUvUkIK
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:35 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/automatic_categorization
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:35 GMT
+      Content-Type:
+      - application/json;charset="utf-8"
+      Content-Length:
+      - '374'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"keywords":[{"occ":1,"keyword":"sanremo"},{"occ":1,"keyword":"giuri"},{"occ":3,"keyword":"eternamente"},{"occ":1,"keyword":"valzer"}],"reliabilty":{"value":"average"},"categories":[{"category":"01000000","ranking":73,"subcategory":"01004000","categorytxt":"arts,
+        culture and entertainment","subcategorytxt":"festive event (including carnival)","subcatovertreshold":false}]}'
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:35 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/tokenizer
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:36 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '1355'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        TWlvIHBhZHJlIGNoZSBtaSBzcGluZ2UgYSBtYW5naWFyZSBlIGd1YWkgc2Ug
+        bm9uIGZpbmlzY28gbWlvIHBhZHJlIGNoZSB2dW9sIGZhcm1pIGZhcm1pIGd1
+        aWRhcmUgbWkgZnJlbmEgY29uIGlsIGZpc2NoaW8gaWwgYmFtYmlubyBwacO5
+        IGdyYW5kZSBtaSBtZW5hIGRhdmFudGkgYSB0dXR0aSBnbGkgYWx0cmkgbHVp
+        IGNoZSBwYXNzYSBwZXIgY2FzbyBtaSBzYWx2YSBlIG1pIGNvbmRhbm5hIHBl
+        ciBzZW1wcmUgbWlvIHBhZHJlIGRpIHNwYWxsZSBzdWwgc3VsIHBpYXR0byBz
+        aSBtYW5naWEgbGEgdml0YSBlIHBvaSBzdWxsYSBzdWxsYSBwaXN0YSBkYSBi
+        YWxsbyBmYSB1biB2YWx6ZXIgZGVudHJvIGlsIHN1byBudW92byB2ZXN0aXRv
+        IFBlciBzZW1wcmUgc29sbyBwZXIgc2VtcHJlIGNvc2Egc2Fyw6AgbWFpIHBv
+        cnZhcnZpIGRlbnRybyBzb2xvIHR1dHRvIGlsIHRlbXBvIHBlciBzZW1wcmUg
+        c29sbyBwZXIgc2VtcHJlIGMnIMOoIHVuIGlzdGFudGUgY2hlIHJpbWFuZSBs
+        w6wgcGlhbnRhdG8gZXRlcm5hbWVudGUgRSBsZWkgY2hlIG5vbiBzaSBsYXNj
+        aWEgYWZmZXJyYXJlIHNpIHBpZWdhIGluZGlldHJvIGUgcmlkZSBlIGxlaSBj
+        aGUgZGljZSBxdWFudG8gbWkgYW1hIGUgaW8gY2hlIG1pIGZpZG8gZSBsZWkg
+        Y2hlIG1pIHRvY2NhdmEgcGVyIHByaW1hIGxhIHN1YSBtYW5vIGJhbWJpbmEg
+        dnVvbGUgY2hlIGxlIGdpdXJpIHF1YWxjb3NhIGxlIHNpIGdvbmZpYSB1bmEg
+        dmVuYSBlIGxlaSBjaGUgZXJhIHRyb3BwbyBwacO5IGZvcnRlIHNpY3VyYSBk
+        aSB0dXR0byBlIHByaW1hIGRpIGFuZGFyc2VuZSBhbmRhcnNlbmUgYW5kYXJz
+        ZW5lIG1pIGTDoCBpbCBwcm9maWxvIGNvbiB1biBtb3ZpbWVudG8gcGVyZmV0
+        dG8gUGVyIHNlbXByZSBzb2xvIHBlciBzZW1wcmUgY29zYSBzYXLDoCBtYWkg
+        cG9ydGFydmkgcG9ydGFydmkgZGVudHJvIHNvbG8gdHV0dG8gaWwgdGVtcG8g
+        cGVyIHNlbXByZSBzb2xvIHBlciBzZW1wcmUgYycgw6ggdW4gaXN0YW50ZSBj
+        aGUgcmltYW5lIGzDrCBwaWFudGF0byBldGVybmFtZW50ZSBwZXIgc2VtcHJl
+        IHNvbG8gcGVyIHNlbXByZSBNaWEgbWFkcmUgY2hlIHByZXBhcmEgbGEgY2Vu
+        YSBjYW50YW5kbyBzYW5yZW1vIGNhcmV6emEgbGEgdGVzdGEgYSBtaW8gcGFk
+        cmUgZ2xpIGRpY2UgdmVkcmFpIGNoZSBjZSBsYSBmYXJlbW8gUGVyIHNlbXBy
+        ZSBzb2xvIHBlciBzZW1wcmUgY29zYSBzYXLDoCBtYWkgcG9ydGFydmkgcG9y
+        dGFydmkgZGVudHJvIHNvbG8gdHV0dG8gaWwgdGVtcG8gcGVyIHNlbXByZSBz
+        b2xvIHBlciBzZW1wcmUgYycgw6ggdW4gaXN0YW50ZSBjaGUgcmltYW5lIGzD
+        rCBwaWFudGF0byBldGVybmFtZW50ZSBwZXIgc2VtcHJlIHNvbG8gcGVyIHNl
+        bXByZQo=
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:36 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/language_detector
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:36 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '51'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"detected_languages":[{"score":1.0,"label":"it"}]}'
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:36 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/voice_tags
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:37 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '605'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"positive_words":[{"start":730,"end":734}],"voice_tags":{"BENEFICIARY":{"KEYWORDS":[],"SENTENCES":[]},"COMPARATIVE":{"KEYWORDS":[],"SENTENCES":[]},"THEME":{"KEYWORDS":[],"SENTENCES":[]},"HYPOTHESIS":{"KEYWORDS":[],"SENTENCES":[]},"GOAL":{"KEYWORDS":[],"SENTENCES":[]},"AGAINST":{"KEYWORDS":[],"SENTENCES":[]},"SPACETIME":{"KEYWORDS":[{"start":144,"end":172},{"start":316,"end":334},{"start":395,"end":420},{"start":754,"end":771},{"start":866,"end":891}],"SENTENCES":[{"start":0,"end":1285}]},"REASONCAUSE":{"KEYWORDS":[],"SENTENCES":[]},"ADVERSATIVE":{"KEYWORDS":[],"SENTENCES":[]}},"negative_words":[]}'
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:37 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/lemmatizer
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:38 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '2805'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        TWlvL21pbyBwYWRyZS9wYWRyZSBjaGUvY2hlIG1pL21pIHNwaW5nZS9zcGlu
+        Z2VyZSBhL2EgbWFuZ2lhcmUvbWFuZ2lhcmUgZS9lIGd1YWkvZ3VhaW8gc2Uv
+        c2Ugbm9uL25vbiBmaW5pc2NvL2ZpbmlyZSBtaW8vbWlvIHBhZHJlL3BhZHJl
+        IGNoZS9jaGUgdnVvbC92b2xlcmUgZmFybWkvZmFyZSBndWlkYXJlL2d1aWRh
+        cmUgbWkvbWkgZnJlbmEvZnJlbmFyZSBjb24vY29uIGlsL2lsIGZpc2NoaW8v
+        ZmlzY2hpbyBpbC9pbCBiYW1iaW5vL2JhbWJpbm8gcGnDuS9wacO5IGdyYW5k
+        ZS9ncmFuZGUgbWkvbWkgbWVuYS9tZW5hcmUgZGF2YW50aS9kYXZhbnRpX2Eg
+        YS9kYXZhbnRpX2EgdHV0dGkvdHV0dGkgZ2xpL2dsaSBhbHRyaS9hbHRybyBs
+        dWkvbHVpIGNoZS9jaGUgcGFzc2EvcGFzc2FyZSBwZXIvcGVyX2Nhc28gY2Fz
+        by9wZXJfY2FzbyBtaS9taSBzYWx2YS9zYWx2YXJlIGUvZSBtaS9taSBjb25k
+        YW5uYS9jb25kYW5uYXJlIHBlci9wZXJfc2VtcHJlIHNlbXByZS9wZXJfc2Vt
+        cHJlIG1pby9taW8gcGFkcmUvcGFkcmUgZGkvZGkgc3BhbGxlL3NwYWxsYSBz
+        dWwvc3UgcGlhdHRvL3BpYXR0byBzaS9zaSBtYW5naWEvbWFuZ2lhcmUgbGEv
+        bGEgdml0YS92aXRhIGUvZSBwb2kvcG9pIHN1bGxhL3N1IHBpc3RhL3Bpc3Rh
+        IGRhL2RhIGJhbGxvL2JhbGxvIGZhL2ZhIHVuL3VuIHZhbHplci92YWx6ZXIg
+        ZGVudHJvL2RlbnRybyBpbC9pbCBzdW8vc3VvIG51b3ZvL251b3ZvIHZlc3Rp
+        dG8vdmVzdGlyZSBQZXIvcGVyX3NlbXByZSBzZW1wcmUvcGVyX3NlbXByZSBz
+        b2xvL3NvbG8gcGVyL3BlciBzZW1wcmUvc2VtcHJlIGNvc2EvY29zYSBzYXLD
+        oC9lc3NlcmUgbWFpL21haSBwb3J2YXJ2aS9wb3J2YXJ2aSBkZW50cm8vZGVu
+        dHJvIHNvbG8vc29sbyB0dXR0by90dXR0byBpbC9pbCB0ZW1wby90ZW1wbyBw
+        ZXIvcGVyX3NlbXByZSBzZW1wcmUvcGVyX3NlbXByZSBzb2xvL3NvbG8gcGVy
+        L3Blcl9zZW1wcmUgc2VtcHJlL3Blcl9zZW1wcmUgYycvY2kgw6gvZXNzZXJl
+        IHVuL3VuIGlzdGFudGUvaXN0YW50ZSBjaGUvY2hlIHJpbWFuZS9yaW1hbmVy
+        ZSBsw6wvbMOsIHBpYW50YXRvL3BpYW50YXJlIGV0ZXJuYW1lbnRlL2V0ZXJu
+        YW1lbnRlIEUvZSBsZWkvbGVpIGNoZS9jaGUgbm9uL25vbiBzaS9zaSBsYXNj
+        aWEvbGFzY2lhcmUgYWZmZXJyYXJlL2FmZmVycmFyZSBzaS9zaSBwaWVnYS9w
+        aWVnYSBpbmRpZXRyby9pbmRpZXRybyBlL2UgcmlkZS9yaWRlcmUgZS9lIGxl
+        aS9sZWkgY2hlL2NoZSBkaWNlL2RpcmUgcXVhbnRvL3F1YW50byBtaS9taSBh
+        bWEvYW1hcmUgZS9lIGlvL2lvIGNoZS9jaGUgbWkvbWkgZmlkby9maWRhcmUg
+        ZS9lIGxlaS9sZWkgY2hlL2NoZSBtaS9taSB0b2NjYXZhL3RvY2NhcmUgcGVy
+        L3BlciBwcmltYS9wcmltYSBsYS9sYSBzdWEvc3VhIG1hbm8vbWFubyBiYW1i
+        aW5hL2JhbWJpbm8gdnVvbGUvdm9sZXJlIGNoZS9jaGUgbGUvbGUgZ2l1cmkv
+        Z2l1cmFyZSBxdWFsY29zYS9xdWFsY29zYSBsZS9sZSBzaS9zaSBnb25maWEv
+        Z29uZmlvIHVuYS91bmEgdmVuYS92ZW5hIGUvZSBsZWkvbGVpIGNoZS9jaGUg
+        ZXJhL2Vzc2VyZSB0cm9wcG8vdHJvcHBvIHBpw7kvcGnDuSBmb3J0ZS9mb3J0
+        ZSBzaWN1cmEvc2ljdXJhIGRpL2RpIHR1dHRvL3R1dHRvIGUvZSBwcmltYS9w
+        cmltYV9kaSBkaS9wcmltYV9kaSBhbmRhcnNlbmUvYW5kYXJlIG1pL21pIGTD
+        oC9kYXJlIGlsL2lsIHByb2ZpbG8vcHJvZmlsbyBjb24vY29uIHVuL3VuIG1v
+        dmltZW50by9tb3ZpbWVudG8gcGVyZmV0dG8vcGVyZmV0dG8gUGVyL3Blcl9z
+        ZW1wcmUgc2VtcHJlL3Blcl9zZW1wcmUgc29sby9zb2xvIHBlci9wZXJfc2Vt
+        cHJlIHNlbXByZS9wZXJfc2VtcHJlIGNvc2EvY29zYSBzYXLDoC9lc3NlcmUg
+        bWFpL21haSBwb3J0YXJ2aS9wb3J0YXJlIGRlbnRyby9kZW50cm8gc29sby9z
+        b2xvIHR1dHRvL3R1dHRvIGlsL2lsIHRlbXBvL3RlbXBvIHBlci9wZXJfc2Vt
+        cHJlIHNlbXByZS9wZXJfc2VtcHJlIHNvbG8vc29sbyBwZXIvcGVyX3NlbXBy
+        ZSBzZW1wcmUvcGVyX3NlbXByZSBjJy9jaSDDqC9lc3NlcmUgdW4vdW4gaXN0
+        YW50ZS9pc3RhbnRlIGNoZS9jaGUgcmltYW5lL3JpbWFuZXJlIGzDrC9sw6wg
+        cGlhbnRhdG8vcGlhbnRhcmUgZXRlcm5hbWVudGUvZXRlcm5hbWVudGUgcGVy
+        L3BlciBzZW1wcmUvc2VtcHJlIHNvbG8vc29sbyBwZXIvcGVyX3NlbXByZSBz
+        ZW1wcmUvcGVyX3NlbXByZSBNaWEvbWlhIG1hZHJlL21hZHJlIGNoZS9jaGUg
+        cHJlcGFyYS9wcmVwYXJhcmUgbGEvbGEgY2VuYS9jZW5hIGNhbnRhbmRvL2Nh
+        bnRhcmUgc2FucmVtby9zYW5yZW1vIGNhcmV6emEvY2FyZXp6YXJlIGxhL2xh
+        IHRlc3RhL3Rlc3RhIGEvYSBtaW8vbWlvIHBhZHJlL3BhZHJlIGdsaS9nbGkg
+        ZGljZS9kaXJlIHZlZHJhaS92ZWRlcmUgY2hlL2NoZSBjZS9jaSBsYS9sYSBm
+        YXJlbW8vZmFyZSBQZXIvcGVyX3NlbXByZSBzZW1wcmUvcGVyX3NlbXByZSBz
+        b2xvL3NvbG8gcGVyL3BlciBzZW1wcmUvc2VtcHJlIGNvc2EvY29zYSBzYXLD
+        oC9lc3NlcmUgbWFpL21haSBwb3J0YXJ2aS9wb3J0YXJlIGRlbnRyby9kZW50
+        cm8gc29sby9zb2xvIHR1dHRvL3R1dHRvIGlsL2lsIHRlbXBvL3RlbXBvIHBl
+        ci9wZXIgc2VtcHJlL3NlbXByZSBzb2xvL3NvbG8gcGVyL3Blcl9zZW1wcmUg
+        c2VtcHJlL3Blcl9zZW1wcmUgYycvY2kgw6gvZXNzZXJlIHVuL3VuIGlzdGFu
+        dGUvaXN0YW50ZSBjaGUvY2hlIHJpbWFuZS9yaW1hbmVyZSBsw6wvbMOsIHBp
+        YW50YXRvL3BpYW50YXJlIGV0ZXJuYW1lbnRlL2V0ZXJuYW1lbnRlIHBlci9w
+        ZXIgc2VtcHJlL3NlbXByZSBzb2xvL3NvbG8gcGVyL3Blcl9zZW1wcmUgc2Vt
+        cHJlL3Blcl9zZW1wcmUK
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:38 GMT
+- request:
+    method: post
+    uri: http://www.machinereading.com/syntactic_parser_stanford
+    body:
+      encoding: UTF-8
+      string: api_key=uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE&lang=it&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre+mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito++Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+porvarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+E+lei+che+non+si+lascia+afferrare+si+piega+indietro+e+ride+e+lei+che+dice+quanto+mi+ama+e+io+che+mi+fido+e+lei+che+mi+toccava+per+prima+la+sua+mano+bambina+vuole+che+le+giuri+qualcosa+le+si+gonfia+una+vena+e+lei+che+era+troppo+pi%C3%B9+forte+sicura+di+tutto+e+prima+di+andarsene+mi+d%C3%A0+il+profilo+con+un+movimento+perfetto+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre+Mia+madre+che+prepara+la+cena+cantando+sanremo+carezza+la+testa+a+mio+padre+gli+dice+vedrai+che+ce+la+faremo+Per+sempre+solo+per+sempre+cosa+sar%C3%A0+mai+portarvi+dentro+solo+tutto+il+tempo+per+sempre+solo+per+sempre+c%27%C3%A8+un+istante+che+rimane+l%C3%AC+piantato+eternamente+per+sempre+solo+per+sempre
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Wed, 07 May 2014 10:26:39 GMT
+      Content-Type:
+      - text/plain;charset="utf-8"
+      Content-Length:
+      - '6422'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        YW1vZChwYWRyZS0yLCBNaW8tMSkKZG9iaihmaW5pc2NvLTEzLCBwYWRyZS0y
+        KQpuc3ViaihzcGluZ2UtNSwgY2hlLTMpCmRvYmooc3BpbmdlLTUsIG1pLTQp
+        CnJjbW9kKHBhZHJlLTIsIHNwaW5nZS01KQpwcmVwX2Eoc3BpbmdlLTUsIG1h
+        bmdpYXJlLTcpCmNvbmoobWFuZ2lhcmUtNywgZ3VhaS05KQpuZWcoZmluaXNj
+        by0xMywgbm9uLTExKQpuc3ViaihmaW5pc2NvLTEzLCAjLTEyKQpkZXAoUk9P
+        VC0wLCBmaW5pc2NvLTEzKQphbW9kKHBhZHJlLTE1LCBtaW8tMTQpCmRlcChm
+        aW5pc2NvLTEzLCBwYWRyZS0xNSkKZG9iaihmYXJtaS0yMCwgY2hlLTE2KQpu
+        c3Viaih2dW9sLTE4LCAjLTE3KQpyY21vZChwYWRyZS0xNSwgdnVvbC0xOCkK
+        eHN1YmooZmFybWktMjAsICMtMTkpCnhjb21wKHZ1b2wtMTgsIGZhcm1pLTIw
+        KQppb2JqKGZhcm1pLTIwLCBmYXJtaS0yMSkKeHN1YmooZ3VpZGFyZS0yMywg
+        Iy0yMikKeGNvbXAoZmFybWktMjAsIGd1aWRhcmUtMjMpCmRlcChmcmVuYS0y
+        NiwgbWktMjQpCm5zdWJqKGZyZW5hLTI2LCAjLTI1KQpkZXAoZ3VpZGFyZS0y
+        MywgZnJlbmEtMjYpCmRldChmaXNjaGlvLTI5LCBpbC0yOCkKcHJlcF9jb24o
+        ZnJlbmEtMjYsIGZpc2NoaW8tMjkpCmRldChiYW1iaW5vLTMxLCBpbC0zMCkK
+        bnN1YmoobWVuYS0zNSwgYmFtYmluby0zMSkKYWR2bW9kKGdyYW5kZS0zMywg
+        cGnDuS0zMikKYW1vZChiYW1iaW5vLTMxLCBncmFuZGUtMzMpCmlvYmoobWVu
+        YS0zNSwgbWktMzQpCmNvbmooZnJlbmEtMjYsIG1lbmEtMzUpCmRlcChsdWkt
+        NDEsIHR1dHRpLTM4KQpkZXQobHVpLTQxLCBnbGktMzkpCmFtb2QobHVpLTQx
+        LCBhbHRyaS00MCkKYXR0cihtZW5hLTM1LCBsdWktNDEpCm5zdWJqKHBhc3Nh
+        LTQzLCBjaGUtNDIpCnJjbW9kKGx1aS00MSwgcGFzc2EtNDMpCmFkdmNsKHBh
+        c3NhLTQzLCBwZXItNDQpCm13ZShwZXItNDQsIGNhc28tNDUpCmRlcChzYWx2
+        YS00OCwgbWktNDYpCm5zdWJqKHNhbHZhLTQ4LCAjLTQ3KQpjb25qKHBhc3Nh
+        LTQzLCBzYWx2YS00OCkKZG9iaihjb25kYW5uYS01MiwgbWktNTApCm5zdWJq
+        KGNvbmRhbm5hLTUyLCAjLTUxKQpjb25qKHNhbHZhLTQ4LCBjb25kYW5uYS01
+        MikKYWR2Y2woY29uZGFubmEtNTIsIHBlci01MykKbXdlKHBlci01Mywgc2Vt
+        cHJlLTU0KQphbW9kKHBhZHJlLTU2LCBtaW8tNTUpCmRvYmooc2FsdmEtNDgs
+        IHBhZHJlLTU2KQpwcmVwX2RpKHBhZHJlLTU2LCBzcGFsbGUtNTgpCmRldChw
+        aWF0dG8tNjEsIHN1bC02MCkKcHJlcF9zdShtYW5naWEtNjMsIHBpYXR0by02
+        MSkKbnN1YmoobWFuZ2lhLTYzLCBzaS02MikKY29uaihzYWx2YS00OCwgbWFu
+        Z2lhLTYzKQpkZXQodml0YS02NSwgbGEtNjQpCmRlcChmYS03Mywgdml0YS02
+        NSkKY29uaih2aXRhLTY1LCBwb2ktNjcpCmRldChwaXN0YS03MCwgc3VsbGEt
+        NjkpCnByZXBfc3UocG9pLTY3LCBwaXN0YS03MCkKcHJlcF9kYShwb2ktNjcs
+        IGJhbGxvLTcyKQpkZXAobWFuZ2lhLTYzLCBmYS03MykKZGV0KHZhbHplci03
+        NSwgdW4tNzQpCmRlcChmYS03MywgdmFsemVyLTc1KQpkZXQobnVvdm8tNzks
+        IGlsLTc3KQphbW9kKG51b3ZvLTc5LCBzdW8tNzgpCnByZXBfZGVudHJvKHNh
+        csOgLTg5LCBudW92by03OSkKcGFydG1vZChudW92by03OSwgdmVzdGl0by04
+        MCkKbnN1YmpwYXNzKHZlc3RpdG8tODAsICMtODEpCmFkdmNsKHZlc3RpdG8t
+        ODAsIFBlci04MikKbXdlKFBlci04Miwgc2VtcHJlLTgzKQphZHZtb2QoY29z
+        YS04Nywgc29sby04NCkKYWR2bW9kKGNvc2EtODcsIHNlbXByZS04NikKcHJl
+        cF9wZXIoc2Fyw6AtODksIGNvc2EtODcpCm5zdWJqKHNhcsOgLTg5LCAjLTg4
+        KQpjb25qKGZhLTczLCBzYXLDoC04OSkKYWR2Y2woc2Fyw6AtODksIG1haS05
+        MCkKbnN1Ymoow6gtMTAzLCBwb3J2YXJ2aS05MSkKYWR2bW9kKHRlbXBvLTk2
+        LCBzb2xvLTkzKQpkZXAodGVtcG8tOTYsIHR1dHRvLTk0KQpkZXQodGVtcG8t
+        OTYsIGlsLTk1KQpwcmVwX2RlbnRybyjDqC0xMDMsIHRlbXBvLTk2KQphZHZj
+        bCjDqC0xMDMsIHBlci05NykKbXdlKHBlci05Nywgc2VtcHJlLTk4KQphZHZt
+        b2QocGVyLTEwMCwgc29sby05OSkKYWR2Y2wow6gtMTAzLCBwZXItMTAwKQpt
+        d2UocGVyLTEwMCwgc2VtcHJlLTEwMSkKZGVwKMOoLTEwMywgYyctMTAyKQpk
+        ZXAoc2Fyw6AtODksIMOoLTEwMykKZGV0KGlzdGFudGUtMTA1LCB1bi0xMDQp
+        CmNvcCjDqC0xMDMsIGlzdGFudGUtMTA1KQpuc3ViaihyaW1hbmUtMTA3LCBj
+        aGUtMTA2KQpyY21vZChpc3RhbnRlLTEwNSwgcmltYW5lLTEwNykKYWR2Y2wo
+        cGlhbnRhdG8tMTA5LCBsw6wtMTA4KQpwYXJ0bW9kKHJpbWFuZS0xMDcsIHBp
+        YW50YXRvLTEwOSkKYWR2Y2wocmltYW5lLTEwNywgZXRlcm5hbWVudGUtMTEw
+        KQpuc3ViaihsYXNjaWEtMTE2LCBsZWktMTEyKQpuZWcobGFzY2lhLTExNiwg
+        bm9uLTExNCkKZG9iaihsYXNjaWEtMTE2LCBzaS0xMTUpCmNvbmooZXRlcm5h
+        bWVudGUtMTEwLCBsYXNjaWEtMTE2KQp4c3ViaihhZmZlcnJhcmUtMTE4LCAj
+        LTExNykKZGVwKGxhc2NpYS0xMTYsIGFmZmVycmFyZS0xMTgpCmRlcChwaWVn
+        YS0xMjAsIHNpLTExOSkKZG9iaihhZmZlcnJhcmUtMTE4LCBwaWVnYS0xMjAp
+        CmFtb2QocGllZ2EtMTIwLCBpbmRpZXRyby0xMjEpCm5zdWJqKHJpZGUtMTI0
+        LCAjLTEyMykKY29uaihhZmZlcnJhcmUtMTE4LCByaWRlLTEyNCkKZGVwKHJp
+        ZGUtMTI0LCBlLTEyNSkKZGVwKGUtMTI1LCBsZWktMTI2KQpuc3ViaihkaWNl
+        LTEyOCwgY2hlLTEyNykKcmNtb2QobGVpLTEyNiwgZGljZS0xMjgpCmRvYmoo
+        YW1hLTEzMiwgbWktMTMwKQpuc3ViaihhbWEtMTMyLCAjLTEzMSkKY2NvbXAo
+        ZGljZS0xMjgsIGFtYS0xMzIpCmRlcChsZWktMTI2LCBlLTEzMykKZGVwKGUt
+        MTMzLCBpby0xMzQpCmRvYmooZmlkby0xMzgsIGNoZS0xMzUpCmRlcChmaWRv
+        LTEzOCwgbWktMTM2KQpuc3ViaihmaWRvLTEzOCwgIy0xMzcpCnJjbW9kKGlv
+        LTEzNCwgZmlkby0xMzgpCm5zdWJqKHZ1b2xlLTE1MCwgbGVpLTE0MCkKbnN1
+        YmoodG9jY2F2YS0xNDMsIGNoZS0xNDEpCmRvYmoodG9jY2F2YS0xNDMsIG1p
+        LTE0MikKcmNtb2QobGVpLTE0MCwgdG9jY2F2YS0xNDMpCmFkdm1vZChtYW5v
+        LTE0OCwgcHJpbWEtMTQ1KQpkZXQobWFuby0xNDgsIGxhLTE0NikKYW1vZCht
+        YW5vLTE0OCwgc3VhLTE0NykKcHJlcF9wZXIodG9jY2F2YS0xNDMsIG1hbm8t
+        MTQ4KQphbW9kKG1hbm8tMTQ4LCBiYW1iaW5hLTE0OSkKY29uaihpby0xMzQs
+        IHZ1b2xlLTE1MCkKaW9iaihnaXVyaS0xNTQsIGxlLTE1MikKbnN1YmooZ2l1
+        cmktMTU0LCAjLTE1MykKY2NvbXAodnVvbGUtMTUwLCBnaXVyaS0xNTQpCmRv
+        YmooZ2l1cmktMTU0LCBxdWFsY29zYS0xNTUpCmRlcChnb25maWEtMTU4LCBs
+        ZS0xNTYpCmRlcChnb25maWEtMTU4LCBzaS0xNTcpCmRlcChnaXVyaS0xNTQs
+        IGdvbmZpYS0xNTgpCmRldCh2ZW5hLTE2MCwgdW5hLTE1OSkKZGVwKGdvbmZp
+        YS0xNTgsIHZlbmEtMTYwKQphdHRyKGdvbmZpYS0xNTgsIGxlaS0xNjIpCm5z
+        dWJqKGVyYS0xNjQsIGNoZS0xNjMpCnJjbW9kKGxlaS0xNjIsIGVyYS0xNjQp
+        CmFkdm1vZChwacO5LTE2NiwgdHJvcHBvLTE2NSkKYWR2bW9kKGZvcnRlLTE2
+        NywgcGnDuS0xNjYpCmFtb2Qoc2ljdXJhLTE2OCwgZm9ydGUtMTY3KQpjb3Ao
+        ZXJhLTE2NCwgc2ljdXJhLTE2OCkKcHJlcF9kaShzaWN1cmEtMTY4LCB0dXR0
+        by0xNzApCmRlcCh0dXR0by0xNzAsIGUtMTcxKQpkZXAoZS0xNzEsIGFuZGFy
+        c2VuZS0xNzQpCmRlcChhbmRhcnNlbmUtMTc0LCBhbmRhcnNlbmUtMTc1KQpk
+        ZXAoYW5kYXJzZW5lLTE3NCwgYW5kYXJzZW5lLTE3NikKaW9iaihkw6AtMTc5
+        LCBtaS0xNzcpCm5zdWJqKGTDoC0xNzksICMtMTc4KQphcHAoYW5kYXJzZW5l
+        LTE3NCwgZMOgLTE3OSkKZGV0KHByb2ZpbG8tMTgxLCBpbC0xODApCm5zdWJq
+        KGFuZGFyc2VuZS0xNzQsIHByb2ZpbG8tMTgxKQpkZXQobW92aW1lbnRvLTE4
+        NCwgdW4tMTgzKQpwcmVwX2NvbihQZXItMTg2LCBtb3ZpbWVudG8tMTg0KQph
+        ZHZtb2QoUGVyLTE4NiwgcGVyZmV0dG8tMTg1KQpkZXAoc2Fyw6AtMTkyLCBQ
+        ZXItMTg2KQptd2UoUGVyLTE4Niwgc2VtcHJlLTE4NykKYWR2bW9kKHBlci0x
+        ODksIHNvbG8tMTg4KQphZHZtb2QoUGVyLTE4NiwgcGVyLTE4OSkKbXdlKHBl
+        ci0xODksIHNlbXByZS0xOTApCmF0dHIoc2Fyw6AtMTkyLCBjb3NhLTE5MSkK
+        Y29uaihhbmRhcnNlbmUtMTc0LCBzYXLDoC0xOTIpCmFkdmNsKHNhcsOgLTE5
+        MiwgbWFpLTE5MykKeHN1YmoocG9ydGFydmktMTk1LCAjLTE5NCkKY3N1Ymoo
+        c2Fyw6AtMTkyLCBwb3J0YXJ2aS0xOTUpCmRlcChwb3J0YXJ2aS0xOTUsIHBv
+        cnRhcnZpLTE5NikKYWR2bW9kKHRlbXBvLTIwMSwgc29sby0xOTgpCmRlcCh0
+        ZW1wby0yMDEsIHR1dHRvLTE5OSkKZGV0KHRlbXBvLTIwMSwgaWwtMjAwKQpw
+        cmVwX2RlbnRybyjDqC0yMDksIHRlbXBvLTIwMSkKYWR2Y2wow6gtMjA5LCBw
+        ZXItMjAyKQptd2UocGVyLTIwMiwgc2VtcHJlLTIwMykKYWR2bW9kKHBlci0y
+        MDUsIHNvbG8tMjA0KQphZHZjbCjDqC0yMDksIHBlci0yMDUpCm13ZShwZXIt
+        MjA1LCBzZW1wcmUtMjA2KQpkZXAow6gtMjA5LCBjJy0yMDcpCm5zdWJqKMOo
+        LTIwOSwgIy0yMDgpCmRlcChwb3J0YXJ2aS0xOTUsIMOoLTIwOSkKZGV0KGlz
+        dGFudGUtMjExLCB1bi0yMTApCmNvcCjDqC0yMDksIGlzdGFudGUtMjExKQpu
+        c3ViaihyaW1hbmUtMjEzLCBjaGUtMjEyKQpkZXAobMOsLTIxNCwgcmltYW5l
+        LTIxMykKZGVwKGlzdGFudGUtMjExLCBsw6wtMjE0KQpjb3AocmltYW5lLTIx
+        MywgcGlhbnRhdG8tMjE1KQphZHZjbChyaW1hbmUtMjEzLCBldGVybmFtZW50
+        ZS0yMTYpCmFkdm1vZChzb2xvLTIxOSwgc2VtcHJlLTIxOCkKYWR2bW9kKG1h
+        ZHJlLTIyMywgc29sby0yMTkpCmFkdm1vZChzb2xvLTIxOSwgcGVyLTIyMCkK
+        bXdlKHBlci0yMjAsIHNlbXByZS0yMjEpCmFtb2QobWFkcmUtMjIzLCBNaWEt
+        MjIyKQpkZXAocmltYW5lLTIxMywgbWFkcmUtMjIzKQpuc3ViaihwcmVwYXJh
+        LTIyNSwgY2hlLTIyNCkKcmNtb2QobWFkcmUtMjIzLCBwcmVwYXJhLTIyNSkK
+        ZGV0KGNlbmEtMjI3LCBsYS0yMjYpCmRvYmoocHJlcGFyYS0yMjUsIGNlbmEt
+        MjI3KQpuc3ViaihjYW50YW5kby0yMjksICMtMjI4KQpkZXAoY2FyZXp6YS0y
+        MzIsIGNhbnRhbmRvLTIyOSkKZG9iaihjYW50YW5kby0yMjksIHNhbnJlbW8t
+        MjMwKQpuc3ViaihjYXJlenphLTIzMiwgIy0yMzEpCmNvbmoocHJlcGFyYS0y
+        MjUsIGNhcmV6emEtMjMyKQpkZXQodGVzdGEtMjM0LCBsYS0yMzMpCmRvYmoo
+        Y2FyZXp6YS0yMzIsIHRlc3RhLTIzNCkKYW1vZChwYWRyZS0yMzcsIG1pby0y
+        MzYpCnByZXBfYSh0ZXN0YS0yMzQsIHBhZHJlLTIzNykKaW9iaihkaWNlLTI0
+        MCwgZ2xpLTIzOCkKbnN1YmooZGljZS0yNDAsICMtMjM5KQpjb25qKGNhcmV6
+        emEtMjMyLCBkaWNlLTI0MCkKbnN1YmoodmVkcmFpLTI0MiwgIy0yNDEpCmRl
+        cChkaWNlLTI0MCwgdmVkcmFpLTI0MikKaW9iaihmYXJlbW8tMjQ3LCBjZS0y
+        NDQpCmRvYmooZmFyZW1vLTI0NywgbGEtMjQ1KQpuc3ViaihmYXJlbW8tMjQ3
+        LCAjLTI0NikKcHJlcGNfY2hlKHNhcsOgLTI1NCwgZmFyZW1vLTI0NykKYWR2
+        Y2woZmFyZW1vLTI0NywgUGVyLTI0OCkKbXdlKFBlci0yNDgsIHNlbXByZS0y
+        NDkpCmFkdm1vZChwZXItMjUxLCBzb2xvLTI1MCkKYWR2bW9kKHBlci0yNTEs
+        IHNlbXByZS0yNTIpCnByZXBfcGVyKGZhcmVtby0yNDcsIGNvc2EtMjUzKQpk
+        ZXAodmVkcmFpLTI0Miwgc2Fyw6AtMjU0KQphZHZjbChzYXLDoC0yNTQsIG1h
+        aS0yNTUpCnhzdWJqKHBvcnRhcnZpLTI1NywgIy0yNTYpCmNzdWJqKHNhcsOg
+        LTI1NCwgcG9ydGFydmktMjU3KQpkZXAocG9ydGFydmktMjU3LCBwb3J0YXJ2
+        aS0yNTgpCmFkdmNsKHBvcnRhcnZpLTI1NywgZGVudHJvLTI1OSkKYWR2bW9k
+        KHRlbXBvLTI2Mywgc29sby0yNjApCmRlcCh0ZW1wby0yNjMsIHR1dHRvLTI2
+        MSkKZGV0KHRlbXBvLTI2MywgaWwtMjYyKQpkZXAow6gtMjcxLCB0ZW1wby0y
+        NjMpCmFkdm1vZChzb2xvLTI2Niwgc2VtcHJlLTI2NSkKYW1vZCh0ZW1wby0y
+        NjMsIHNvbG8tMjY2KQphZHZjbCjDqC0yNzEsIHBlci0yNjcpCm13ZShwZXIt
+        MjY3LCBzZW1wcmUtMjY4KQpkZXAow6gtMjcxLCBjJy0yNjkpCm5zdWJqKMOo
+        LTI3MSwgIy0yNzApCmRlcChwb3J0YXJ2aS0yNTcsIMOoLTI3MSkKZGV0KGlz
+        dGFudGUtMjczLCB1bi0yNzIpCmNvcCjDqC0yNzEsIGlzdGFudGUtMjczKQpu
+        c3ViaihyaW1hbmUtMjc1LCBjaGUtMjc0KQpyY21vZChpc3RhbnRlLTI3Mywg
+        cmltYW5lLTI3NSkKYWR2Y2wocmltYW5lLTI3NSwgbMOsLTI3NikKY29wKHJp
+        bWFuZS0yNzUsIHBpYW50YXRvLTI3NykKYWR2Y2wocmltYW5lLTI3NSwgZXRl
+        cm5hbWVudGUtMjc4KQphZHZtb2Qoc29sby0yODEsIHNlbXByZS0yODApCmFk
+        dm1vZChwZXItMjgyLCBzb2xvLTI4MSkKYWR2Y2wocmltYW5lLTI3NSwgcGVy
+        LTI4MikKbXdlKHBlci0yODIsIHNlbXByZS0yODMpCgo=
+    http_version: 
+  recorded_at: Wed, 07 May 2014 10:26:39 GMT
+recorded_with: VCR 2.4.0
