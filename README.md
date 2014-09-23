@@ -7,7 +7,7 @@ Ruby gem for interaction with [Machinereading.com](http://www.machinereading.com
 Add this line to your application's Gemfile:
 
 ```
-gem 'machinereading', github: "thefoolsrl/machinereading"
+gem 'machinereading'
 ```
 
 And then execute:
