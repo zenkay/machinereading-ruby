@@ -1,4 +1,4 @@
-# Machinereading [![Code Climate](https://codeclimate.com/github/zenkay/machinereading-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/machinereading-ruby) [![Travis CI](https://travis-ci.org/zenkay/machinereading-ruby.svg?branch=master)](https://travis-ci.org/zenkay/machinereading-ruby)
+# MachineReading [![Code Climate](https://codeclimate.com/github/zenkay/machinereading-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/machinereading-ruby) [![Travis CI](https://travis-ci.org/zenkay/machinereading-ruby.svg?branch=master)](https://travis-ci.org/zenkay/machinereading-ruby)
 
 Ruby gem for interaction with [Machinereading.com](http://www.machinereading.com)
 
