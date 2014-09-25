@@ -119,8 +119,7 @@ describe Machinereading::Element, vcr: vcr_options do
       c.endpoint = "not-an-url-endpoint"
     end
     element = Machinereading::Element.new(@sample_content, @sample_content_lang)
-    # raise Machinereading::BadResponse
-    expect { element.tokenizer }.to raise_error
+    expect { element.tokenizer }.to raise_error(Machinereading::BadResponse)
   end
 
 end
