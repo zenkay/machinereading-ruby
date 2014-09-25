@@ -62,8 +62,7 @@ module Machinereading
         response = conn.post "/#{endpoint}", params
         response.body
       rescue Exception => e
-        puts e.inspect
-        #raise Machinereading::BadResponse(response.body)
+        raise Machinereading::BadResponse
       end
     end
 

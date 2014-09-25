@@ -4,9 +4,9 @@ vcr_options = { :cassette_name => "machinereading_element", :record => :new_epis
 
 describe Machinereading::Element, vcr: vcr_options do
   
-  before(:all) do
+  before(:each) do
     Machinereading.configure do |c|
-      c.api_key = "uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE" # a.mostosi@thefool.it
+      c.api_key = "uf8t28vY4U6w0cU7269O0zORI4h5yz7uhfzBmvBUPJeSVlvmJE"
       c.endpoint = "http://www.machinereading.com"
     end
     @sample_content = "Mio padre che mi spinge a mangiare e guai se non finisco mio padre che vuol farmi guidare mi frena con il fischio il bambino più grande mi mena davanti a tutti gli altri lui che passa per caso mi salva e mi condanna per sempre mio padre di spalle sul piatto si mangia la vita e poi sulla pista da ballo fa un valzer dentro il suo nuovo vestito  Per sempre solo per sempre cosa sarà mai porvarvi dentro solo tutto il tempo per sempre solo per sempre c'è un istante che rimane lì piantato eternamente E lei che non si lascia afferrare si piega indietro e ride e lei che dice quanto mi ama e io che mi fido e lei che mi toccava per prima la sua mano bambina vuole che le giuri qualcosa le si gonfia una vena e lei che era troppo più forte sicura di tutto e prima di andarsene mi dà il profilo con un movimento perfetto Per sempre solo per sempre cosa sarà mai portarvi dentro solo tutto il tempo per sempre solo per sempre c'è un istante che rimane lì piantato eternamente per sempre solo per sempre Mia madre che prepara la cena cantando sanremo carezza la testa a mio padre gli dice vedrai che ce la faremo Per sempre solo per sempre cosa sarà mai portarvi dentro solo tutto il tempo per sempre solo per sempre c'è un istante che rimane lì piantato eternamente per sempre solo per sempre"
@@ -111,6 +111,16 @@ describe Machinereading::Element, vcr: vcr_options do
     expect(response["positive_words"]).to be_an_instance_of(Array)
     expect(response["negative_words"]).to be_an_instance_of(Array)
     expect(response["voice_tags"]).to be_an_instance_of(Hash)
+  end
+
+  it "raise exception on wrong config parameters" do
+    Machinereading.configure do |c|
+      c.api_key = "bad-api-key"
+      c.endpoint = "not-an-url-endpoint"
+    end
+    element = Machinereading::Element.new(@sample_content, @sample_content_lang)
+    # raise Machinereading::BadResponse
+    expect { element.tokenizer }.to raise_error
   end
 
 end
