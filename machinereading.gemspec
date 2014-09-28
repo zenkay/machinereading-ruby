@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Machinereading::VERSION
   spec.authors       = ["Andrea Mostosi"]
   spec.email         = ["andrea.mostosi@zenkay.net"]
-  spec.summary       = %q{Gem for machinereading.com}
-  spec.description   = %q{Gem for machinereading.com}
-  spec.homepage      = ""
+  spec.summary       = %q{MachineReading Ruby Gem}
+  spec.description   = %q{Ruby gem for interaction with Damantic's MachineReading APIs}
+  spec.homepage      = "https://github.com/zenkay/machinereading-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
