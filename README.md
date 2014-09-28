@@ -1,6 +1,6 @@
 # [![Ruby Gem Icon](https://raw.githubusercontent.com/zenkay/machinereading-ruby/master/rubygem.png)](https://rubygems.org/gems/machinereading) MachineReading Ruby Gem
 
-[![Code Climate](https://codeclimate.com/github/zenkay/machinereading-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/machinereading-ruby) [![Travis CI](https://travis-ci.org/zenkay/machinereading-ruby.svg?branch=master)](https://travis-ci.org/zenkay/machinereading-ruby) [![Gem Version](https://badge.fury.io/rb/machinereading.svg)](http://badge.fury.io/rb/machinereading)
+[![Code Climate](https://codeclimate.com/github/zenkay/machinereading-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/machinereading-ruby) [![Travis CI](https://travis-ci.org/zenkay/machinereading-ruby.svg?branch=master)](https://travis-ci.org/zenkay/machinereading-ruby) [![Gem Version](https://badge.fury.io/rb/machinereading.svg)](http://badge.fury.io/rb/machinereading) [![Coverage Status](https://coveralls.io/repos/zenkay/machinereading-ruby/badge.png)](https://coveralls.io/r/zenkay/machinereading-ruby)
 
 Ruby gem for interaction with Damantic's [Machinereading](http://www.machinereading.com) APIs.
 
